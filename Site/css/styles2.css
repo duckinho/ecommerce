@@ -25,19 +25,17 @@ h1{
   color: red;
 }
 
-.header{
+img{
+  max-width: 100%;
+  display: flex;
+}
+
+.menu{
+  display: flex;
   display: flex;
   flex-wrap: wrap;
   padding: 20px ;
-  
-}
-
-.menu{
-  display: flex;
-}
-
-.menu{
-  margin-left: 10px;
+  margin-left: 20rem;
 }
 
 .menu a{
@@ -65,10 +63,43 @@ h1{
 
 .box color{
   color: blueviolet;
+  margin-left: 23rem;
 }
 
 .flex{
- 
+  margin-left: 20rem;
 }
-/* CSS FLEXBOX 1 */
 
+.apresentacao{
+  margin: center;
+}
+
+.bt-sign{
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-left: 5rem;
+ }
+
+ .bt-signup{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #6F009E;
+  margin-left: 1rem;
+}
+
+
+/* CSS Responsivo 1 */
+
+@media (max-width: 600px){
+
+
+}
