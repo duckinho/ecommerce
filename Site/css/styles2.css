@@ -1,82 +1,74 @@
 body{
-  background: #000116;
+    background: #000116;
 }
-html{
-  font-family: 'Poppins', sans-serif;
+  
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  padding-right: 500;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
 }
 
-.center{
-  width: 1160px;
-  margin: 0 auto;
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  text-decoration: none;
+  margin-top: 100px;
+  color: red;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px ;
+  
 }
 
 .menu{
-  padding-top: 30px;
-}
-
-.menu__item{
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.menu__link{
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-
-}
-
-#main-header{
   display: flex;
-  justify-content: center;
 }
 
-.bt-sigin{
-  border: 1px solid #ffffff;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 30px;
-  border-radius: 4px;
-  margin-left: 350px;
+.menu{
+  margin-left: 10px;
 }
 
-.bt-signup{
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 30px;
-  border-radius: 4px;
-  background: #6F009E;
+.menu a{
+  display: block;
+  padding: 10px;
 }
 
-.imagemhome{
-  width: 50%;
-  float: left;
-  padding-top: 50px;
-  padding-left: 810px;
+.menu strong{
+  color: blueviolet;
+
 }
 
-.box{
+.menu__li{
+   float: right;
+}
 
+.clear{
+  clear: both;
+}
+
+.center{
+  width: 1110;
+  margin: 0 auto;
 }
 
 .box color{
-  color: #8A0AF9;
-
+  color: blueviolet;
 }
 
-.box strong{
-  color: #1F5BE6;
-
+.flex{
+ 
 }
-
-.title{
-  color: #ffffff;
-  font-size: 44px;
-  line-height: 20px;
-  padding-left: 810px;
-}
+/* CSS FLEXBOX 1 */
 
