@@ -1,105 +1,50 @@
-body{
-    background: #000116;
-}
-  
-body,
-ul,
-li,
-p {
-  margin: 0px;
-  padding: 0px;
-  padding-right: 500;
-  list-style: none;
-  font-size: 1.2rem;
-  font-family: Arial;
-}
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DrugBook</title>
+    <link rel="stylesheet" href="./css/styles3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <div class="apresentacao">
+           <nav>
+        <ul class="menu">
+           <li class="menu__li"><a href="#">Home</a>
+           </li>
+           <li class="menu__li"><a href="#">About</a>
+           </li>
+           <li class="menu__li"><a href="#">Shop</a>
+           </li>
+           <li class="menu__li"><a href="#">FAQ</a>
+           </li>
+           <li class="menu__li">
+             <a href="#" class="bt-sign">Sign in</a>
+           </li>
+           <li class="menu__li">
+             <a href="#" class="bt-signup">Sign up</a>
+           </li>
+        </ul> 
+         <div class="clear"></div>
+    </div>
+          </nav>
+         
+      </header>
 
-a{
-  text-decoration: none;
-  color: white;
-}
+      <main>
+        <div class="box">
+           <h2 class="title"><color>B</color>est quality.</h2>
+           <h2 class="title"><color>B</color>est delivery.</h2>
+           <h2 class="title"><color>B</color>est segurity.</h2>
+        </div>
 
-h1{
-  text-decoration: none;
-  margin-top: 100px;
-  color: red;
-}
+        <section class="flex">
+          <div>
+             <img src="./imagens/home.png">
+          </div>
 
-img{
-  max-width: 100%;
-  display: flex;
-}
-
-.menu{
-  display: flex;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px ;
-  margin-left: 20rem;
-}
-
-.menu a{
-  display: block;
-  padding: 10px;
-}
-
-.menu strong{
-  color: blueviolet;
-
-}
-
-.menu__li{
-   float: right;
-}
-
-.clear{
-  clear: both;
-}
-
-.center{
-  width: 1110;
-  margin: 0 auto;
-}
-
-.box color{
-  color: blueviolet;
-  margin-left: 23rem;
-}
-
-.flex{
-  margin-left: 20rem;
-}
-
-.apresentacao{
-  margin: center;
-}
-
-.bt-sign{
-  border: 1px solid #ffffff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 30px;
-  border-radius: 4px;
-  margin-left: 5rem;
- }
-
- .bt-signup{
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 10px 30px;
-  border-radius: 4px;
-  background: #6F009E;
-  margin-left: 1rem;
-}
-
-
-/* CSS Responsivo 1 */
-
-@media (max-width: 600px){
-
-
-}
+      </section>
+     </main>
+    
+ </body>
+</html>
